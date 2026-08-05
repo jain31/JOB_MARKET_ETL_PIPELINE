@@ -3,7 +3,7 @@ import pandas as pd
 from config.database import get_db_engine
 
 st.set_page_config(page_title="Job Market Pipeline Dashboard", layout="wide")
-st.title("💼 Himalayas Job Market Dashboard")
+st.title("Himalayas Job Market Dashboard")
 
 @st.cache_data(ttl=300)
 def fetch_mysql_data():
