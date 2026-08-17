@@ -22,6 +22,7 @@ def clean_himalayas_jobs(raw_filepath=RAW_DATA_PATH):
     # 1. Select key fields from Himalayas API response
     cols = ["guid", "title", "companyName", "minSalary", "maxSalary", "currency", "locationRestrictions", "pubDate"]
     df = df[[c for c in cols if c in df.columns]].copy()
+    df = df[[c for c in cols if c in df.columns]].copy()
 
     # 2. Rename columns to standard SQL names
     df.rename(columns={
