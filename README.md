@@ -1,11 +1,11 @@
 Markdown
-# 🚀 Remote Job Market ETL Pipeline & Streamlit Dashboard
+#  Remote Job Market ETL Pipeline & Streamlit Dashboard
 
-An end-to-end Data Engineering pipeline that extracts live remote job postings from the [Himalayas API](https://himalayas.app/jobs/api), cleans and standardizes the data using **Pandas**, loads it into a **MySQL** relational database using **SQLAlchemy**, and visualizes market insights via an interactive **Streamlit** dashboard.
+An end-to-end Data Engineering pipeline that extracts live remote job postings from the [Himalayas API], cleans and standardizes the data using **Pandas**, loads it into a **MySQL** relational database using **SQLAlchemy**, and visualizes market insights via an interactive **Streamlit** dashboard.
 
 ---
 
-## 🏗️ Project Architecture
+##  Project Architecture
 
                               ETL PIPELINE
 ┌─────────────────┐       ┌─────────────────┐       ┌─────────────────┐       ┌──────────────────┐
@@ -22,7 +22,7 @@ An end-to-end Data Engineering pipeline that extracts live remote job postings f
 
 ---
 
-## 🛠️ Tech Stack & Tools
+##  Tech Stack & Tools
 
 - **Language:** Python 3.10+
 - **Data Ingestion:** `requests` (REST API with Pagination)
@@ -33,7 +33,7 @@ An end-to-end Data Engineering pipeline that extracts live remote job postings f
 
 ---
 
-## 📂 Directory Structure
+##  Directory Structure
 
 ```text
 JOB_MARKET_ETL_PIPELINE/
